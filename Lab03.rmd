@@ -42,14 +42,14 @@ fl_votes %>% ggplot() +
   theme_void()
 ```
 
-# Exercise #3
+# Exercise 3
 
 ```{r fl-props}
 fl_votes <- fl_votes %>% 
   mutate(total16 = dem16 + rep16,
          total20 = dem20 + rep20,
          prop_rep16 = rep16 / total16,
-         prop_rep20 = rep20 / total20)
+         prop_rep20 = rep20 / total20) 
 ```
 
 # Exercise 4
